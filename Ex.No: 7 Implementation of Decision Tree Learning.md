@@ -1,6 +1,6 @@
 # Ex.No: 7 Implementation of Decision Tree Learning 
 ## DATE:5-10-2024
-## REGISTER NUMBER : 212221240047
+## REGISTER NUMBER : 212221240058
 ## AIM:
 
 Design a decision tree for following data. 
@@ -27,7 +27,7 @@ Hurt, Exposed, With Ammo -> Defend
    
 ## Program:
 
-
+```
 from sklearn import tree
 import pandas as pd
 
@@ -77,7 +77,7 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(10, 6))
 tree.plot_tree(clf, feature_names=['Health', 'Cover', 'Ammo', 'Exposed'], class_names=['Defend', 'Attack'], filled=True)
 plt.show()
-
+```
 
 Output:
 
